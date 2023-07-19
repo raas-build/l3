@@ -1,0 +1,67 @@
+INFO [07-19|12:40:40.639] Running Arbitrum nitro node              revision=v2.1.0-beta.6-152b9ff vcs.time=2023-06-20T14:55:39-06:00
+INFO [07-19|12:40:40.772] connected to l1 chain                    l1url=https://goerli-rollup.arbitrum.io/rpc l1chainid=421,613
+INFO [07-19|12:40:40.773] retaining ability to lookup full transaction history as archive mode is enabled 
+INFO [07-19|12:40:40.789] Using leveldb as the backing database 
+INFO [07-19|12:40:40.789] Allocated cache and file handles         database="/home/user/.arbitrum/RaaS L3 Goerli/nitro/l2chaindata" cache=16.00MiB handles=16 readonly=true
+INFO [07-19|12:40:40.791] Using leveldb as the backing database 
+INFO [07-19|12:40:40.791] Allocated cache and file handles         database="/home/user/.arbitrum/RaaS L3 Goerli/nitro/l2chaindata" cache=2.00GiB  handles=512
+INFO [07-19|12:40:40.874] Using LevelDB as the backing database 
+INFO [07-19|12:40:40.923] Opened ancient database                  database="/home/user/.arbitrum/RaaS L3 Goerli/nitro/l2chaindata/ancient/chain" readonly=false
+INFO [07-19|12:40:40.923] Initializing                             ancients=0 genesisBlockNr=0
+INFO [07-19|12:40:41.050] Read serialized chain config from init message json="{\"chainId\":1987197,\"homesteadBlock\":0,\"daoForkBlock\":null,\"daoForkSupport\":true,\"eip150Block\":0,\"eip150Hash\":\"0x0000000000000000000000000000000000000000000000000000000000000000\",\"eip155Block\":0,\"eip158Block\":0,\"byzantiumBlock\":0,\"constantinopleBlock\":0,\"petersburgBlock\":0,\"istanbulBlock\":0,\"muirGlacierBlock\":0,\"berlinBlock\":0,\"londonBlock\":0,\"clique\":{\"period\":0,\"epoch\":0},\"arbitrum\":{\"EnableArbOS\":true,\"AllowDebugPrecompiles\":false,\"DataAvailabilityCommittee\":false,\"InitialArbOSVersion\":10,\"InitialChainOwner\":\"0xF073345B2099FaC12bEa9147e0E00F64E4c075Da\",\"GenesisBlockNum\":0}}"
+INFO [07-19|12:40:41.051] addresss table import complete 
+INFO [07-19|12:40:41.051] retryables import complete 
+INFO [07-19|12:40:41.054] Persisted trie from memory database      nodes=80 size=9.19KiB time=1.795269ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-19|12:40:41.054] Persisted trie from memory database      nodes=0  size=0.00B   time="1.183µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [07-19|12:40:41.061] wrote genesis block                      number=0 hash=ddcb37..60eec6
+INFO [07-19|12:40:41.063]  
+INFO [07-19|12:40:41.063] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [07-19|12:40:41.063] Chain ID:  1987197 (unknown) 
+INFO [07-19|12:40:41.063] Consensus: Clique (proof-of-authority) 
+INFO [07-19|12:40:41.063]  
+INFO [07-19|12:40:41.063] Pre-Merge hard forks (block based): 
+INFO [07-19|12:40:41.063]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [07-19|12:40:41.063]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [07-19|12:40:41.063]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [07-19|12:40:41.063]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [07-19|12:40:41.063]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [07-19|12:40:41.063]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [07-19|12:40:41.063]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [07-19|12:40:41.063]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [07-19|12:40:41.063]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md) 
+INFO [07-19|12:40:41.063]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [07-19|12:40:41.064]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [07-19|12:40:41.064]  
+INFO [07-19|12:40:41.064] The Merge is not yet available for this network! 
+INFO [07-19|12:40:41.064]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [07-19|12:40:41.064]  
+INFO [07-19|12:40:41.064] Post-Merge hard forks (timestamp based): 
+INFO [07-19|12:40:41.064]  
+INFO [07-19|12:40:41.064] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [07-19|12:40:41.064]  
+INFO [07-19|12:40:41.064] Loaded most recent local block           number=0 hash=ddcb37..60eec6 td=1 age=54y3mo3w
+WARN [07-19|12:40:41.064] Failed to load snapshot                  err="missing or corrupted snapshot"
+INFO [07-19|12:40:41.066] Rebuilding state snapshot 
+INFO [07-19|12:40:41.070] Resuming state snapshot generation       root=bb779d..4344ff accounts=0 slots=0 storage=0.00B dangling=0 elapsed=3.795ms
+INFO [07-19|12:40:41.078] Using leveldb as the backing database 
+INFO [07-19|12:40:41.078] Allocated cache and file handles         database="/home/user/.arbitrum/RaaS L3 Goerli/nitro/arbitrumdata" cache=16.00MiB handles=16
+INFO [07-19|12:40:41.085] Generated state snapshot                 accounts=15 slots=45 storage=4.63KiB dangling=0 elapsed=18.302ms
+INFO [07-19|12:40:41.112] Using LevelDB as the backing database 
+INFO [07-19|12:40:41.115] Using leveldb as the backing database 
+INFO [07-19|12:40:41.115] Allocated cache and file handles         database="/home/user/.arbitrum/RaaS L3 Goerli/nitro/classic-msg" cache=16.00MiB handles=16  readonly=true
+INFO [07-19|12:40:41.298] running as validator                     txSender=0x9e58c005AcdCeF769091A26c5182beB9C1954E91 actingAsWallet=0x9e58c005AcdCeF769091A26c5182beB9C1954E91 whitelisted=true strategy=MakeNodes
+INFO [07-19|12:40:41.299] validation node started 
+INFO [07-19|12:40:41.299] Starting peer-to-peer node               instance=nitro/vv2.1.0-beta.6-152b9ff/linux-amd64/go1.20.5
+WARN [07-19|12:40:41.299] P2P server will be useless, neither dialing nor listening 
+INFO [07-19|12:40:41.335] Loaded JWT secret file                   path="/home/user/.arbitrum/RaaS L3 Goerli/nitro/jwtsecret" crc32=0xc466d0e5
+INFO [07-19|12:40:41.336] New local node record                    seq=1,689,770,441,334 id=904be48bca17e370 ip=127.0.0.1 udp=0 tcp=0
+INFO [07-19|12:40:41.336] HTTP server started                      endpoint=[::]:8449      auth=false prefix= cors=*         vhosts=*
+INFO [07-19|12:40:41.336] WebSocket enabled                        url=ws://127.0.0.1:8549
+INFO [07-19|12:40:41.336] HTTP server started                      endpoint=127.0.0.1:8549 auth=true  prefix= cors=localhost vhosts=
+WARN [07-19|12:40:41.336] Error reading unclean shutdown markers   error="leveldb: not found"
+INFO [07-19|12:40:41.337] Started P2P networking                   self=enode://20f3be553e11f2e613997274d6a3db1f7808b965f8d2d91bd295a2921cd149eca02b659ea933b2b348a926da3085ab9637cba4d47a3a8114a9ac9d4a30d2186c@127.0.0.1:0
+INFO [07-19|12:40:41.377] InboxTracker                             SequencerBatchCount=0
+WARN [07-19|12:40:41.748] empty sequencer message 
+WARN [07-19|12:40:41.748] reading virtual delayed message segment  delayedMessagesRead=0 afterDelayedMessages=1
+INFO [07-19|12:40:41.748] InboxTracker                             sequencerBatchCount=1 messageCount=1 l1Block=31,002,367 l1Timestamp=2023-07-19T12:20:07+0000
+INFO [07-19|12:40:41.953] BlockValidator initialized               current=da4e3a..b27b21 pending=da4e3a..b27b21
